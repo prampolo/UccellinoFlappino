@@ -8,8 +8,8 @@ public class CoinSpawn : MonoBehaviour {
     public GameObject[] coin;
     public Transform spawnPoint;
 
-    private float spawnTime = 7.5f;
-    private float spawnNext = 4f;
+    private float spawnTime = 3f;
+    private float spawnNext = 13f;
 
     private float maxHeight = 2f;
     private float minHeight = -2f;

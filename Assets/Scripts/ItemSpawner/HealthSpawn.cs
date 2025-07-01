@@ -7,8 +7,8 @@ public class HealthSpawn : MonoBehaviour {
     public GameObject health;
     public Transform spawnPoint;
 
-    private float spawnTime = 20f;
-    private float spawnNext = 40f;
+    private float spawnTime = 11f;
+    private float spawnNext = 17f;
 
     private float maxHeight = 2f;
     private float minHeight = -2f;
