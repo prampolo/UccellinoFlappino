@@ -26,7 +26,7 @@ public class SpawnEnemy : MonoBehaviour {
         if (Time.time >= nextSpawnTime) {
             transform.position = new Vector3(spawnPoint.position.x, Random.Range(maxHeight, minHeight));
             Quaternion spawnRotation = Quaternion.identity;
-            int rand = Random.Range(0, 2);
+            int rand = 2;//Random.Range(0, 2);
             Instantiate(enemy[rand], transform.position, transform.rotation);
             nextSpawnTime = Time.time + spawnNext;
         }
